@@ -1,0 +1,117 @@
+*{
+  /* background-color: green; */
+}
+body {
+    height: 2400px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+
+  header {
+    /* border: 2px solid black; */
+    background-color: rgb(28,32,33);
+  }
+
+  .header h4 {
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 71px;
+    margin: 1px 4px;
+    padding: 25px 37px;
+    text-align: left;
+    color: rebeccapurple;
+  }
+
+  .header a {
+    margin: 2px 0px;
+    padding: 7px 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .header a:hover {
+    color: rebeccapurple;
+    text-decoration: underline;
+  }
+
+  .contacts {
+    /* border: 2px solid rgb(39, 230, 64); */
+    margin: 2px 2px;
+    padding: 24px 11px;
+    float: right;
+    font-size: 17px;
+  }
+
+  .banner {
+    /* border: 4px solid yellow; */
+    margin: 6px 0px;
+    opacity: 50%;
+  }
+
+  #main-img {
+    width: 100%;
+    margin: -8px auto;
+  }
+
+  .container1 {
+    /* border: 2px solid purple; */
+    color: white;
+    text-align: center;
+  }
+  hr{
+    width:80%;
+    background-color: black;
+  }
+  .nav-bar {
+    
+  }
+  .nav-bar li{
+    text-decoration: none;
+    display: inline-block;
+  }
+  .nav-bar li a {
+    margin: 2px 2px;
+    padding: 2px 40px;
+    text-decoration: none;
+    color: black;
+  }
+  .nav-bar li a:hover{
+    text-decoration: underline;
+    color: rebeccapurple;
+  }
+  .container2 {
+    display: inline-block;
+    width: 33%;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background-color: rgb(204, 255, 247);
+    margin: 10px 51px;
+    padding: 46px 46px;
+  }
+
+  .container2 button {
+    margin: 2px 124px;
+    padding: 11px 35px;
+    background-color: yellow;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    color: rgb(22, 19, 19);
+  }
+
+  .container2 button:hover {
+    background-color: rgb(245, 242, 196);
+  }
+
+  .container3 {
+    display: block;
+    width: 33%;
+    float: right;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: rgb(229, 233, 32);
+    margin: 46px 96px;
+    padding: 27px 29px;
+  }
